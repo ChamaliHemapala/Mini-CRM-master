@@ -1,5 +1,5 @@
 # Mini-CRM
-Laravel Framework 5.5.39
+Laravel Framework 5.5.49
 
 ## User Requirements
 
