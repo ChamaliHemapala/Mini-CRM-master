@@ -27,7 +27,6 @@ class CompanyUpdateRequest extends FormRequest
             'name'    => 'required|max:60',
             'email'   => 'required|email|max:255',
             'website' => 'nullable|url|max:255',
-            'address' => 'nullable|max:255',
         ];
     }
 }
