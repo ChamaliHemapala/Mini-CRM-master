@@ -1,7 +1,4 @@
 # Mini-CRM
-
-This project built with Laravel 5.5.
-
 ## User Requirements
 
 * [x] Basic Laravel Auth: ability to log in as administrator
@@ -17,7 +14,7 @@ This project built with Laravel 5.5.
 
 ## How to Install
 
-1. Clone the repo : 
+1. Clone the repo : git clone https://github.com/ChamaliHemapala/Mini-CRM-master.git
 2. `$ cd Mini-CRM`
 3. `$ composer install`
 4. `$ cp .env.example .env`
@@ -31,6 +28,7 @@ This project built with Laravel 5.5.
     - email : `admin@admin.com`
     - password : `password`
 
+**Please note that mini-crm.sql is the database file**
 ## License
 
 This software is open-sourced software licensed under the [MIT license](LICENSE).
