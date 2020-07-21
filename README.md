@@ -17,7 +17,7 @@ Laravel Framework 5.5.49
 ## How to Install
 
 1. Clone the repo : git clone https://github.com/ChamaliHemapala/Mini-CRM-master.git
-2. `$ cd Mini-CRM`
+2. `$ cd Mini-CRM-master`
 3. `$ composer install`
 4. `$ cp .env.example .env`
 5. `$ php artisan key:generate`
