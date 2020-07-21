@@ -1,4 +1,6 @@
 # Mini-CRM
+Laravel Framework 5.5.39
+
 ## User Requirements
 
 * [x] Basic Laravel Auth: ability to log in as administrator
