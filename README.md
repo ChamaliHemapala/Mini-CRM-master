@@ -17,7 +17,7 @@ This project built with Laravel 5.5.
 
 ## How to Install
 
-1. Clone the repo : 
+1. Clone the repo : git clone https://github.com/ChamaliHemapala/Mini-CRM-master.git
 2. `$ cd Mini-CRM`
 3. `$ composer install`
 4. `$ cp .env.example .env`
