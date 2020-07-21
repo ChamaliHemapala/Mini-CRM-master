@@ -29,8 +29,7 @@ Laravel Framework 5.5.49
 11. Login with :
     - email : `admin@admin.com`
     - password : `password`
-
-**Please note that mini-crm.sql is the database file**
+    
 ## License
 
 This software is open-sourced software licensed under the [MIT license](LICENSE).
