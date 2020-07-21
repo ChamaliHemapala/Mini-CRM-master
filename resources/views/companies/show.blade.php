@@ -7,11 +7,6 @@
     <div class="col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading"><h3 class="panel-title">{{ trans('company.detail') }}</h3></div>
-            @if ($company->logo && is_file(public_path('storage/'.$company->logo)))
-                <div class="panel-body">
-                    {{ Html::image('storage/'.$company->logo, $company->name, ['style' => 'width:100%']) }}
-                </div>
-            @endif
             <table class="table table-condensed">
                 <tbody>
                     <tr>
@@ -25,10 +20,6 @@
                     <tr>
                         <td>{{ trans('company.website') }}</td>
                         <td>{{ $company->website }}</td>
-                    </tr>
-                    <tr>
-                        <td>{{ trans('company.address') }}</td>
-                        <td>{{ $company->address }}</td>
                     </tr>
                 </tbody>
             </table>

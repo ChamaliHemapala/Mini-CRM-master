@@ -17,8 +17,6 @@
                     <p>{{ $company->email }}</p>
                     <label class="control-label">{{ trans('company.website') }}</label>
                     <p>{{ $company->website }}</p>
-                    <label class="control-label">{{ trans('company.address') }}</label>
-                    <p>{{ $company->address }}</p>
                     {!! $errors->first('company_id', '<span class="form-error small">:message</span>') !!}
                 </div>
                 <hr style="margin:0">
@@ -50,7 +48,6 @@
                 {!! FormField::text('name', ['required' => true, 'label' => trans('company.name')]) !!}
                 {!! FormField::email('email', ['required' => true, 'label' => trans('company.email')]) !!}
                 {!! FormField::text('website', ['label' => trans('company.website')]) !!}
-                {!! FormField::textarea('address', ['label' => trans('company.address')]) !!}
             </div>
             <div class="panel-footer">
                 {!! Form::submit(trans('company.update'), ['class' => 'btn btn-success']) !!}
@@ -60,20 +57,6 @@
                 @endcan
             </div>
             {!! Form::close() !!}
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-heading"><h3 class="panel-title">{{ trans('company.logo_upload') }}</h3></div>
-            <div class="panel-body">
-                @if ($company->logo && is_file(public_path('storage/'.$company->logo)))
-                {{ Html::image('storage/'.$company->logo, $company->name, ['style' => 'width:100%']) }}
-                @endif
-                {{ Form::open(['route' => ['companies.logo-upload', $company], 'method' => 'patch', 'files' => true]) }}
-                {!! FormField::file('logo', ['label' => false]) !!}
-                {{ Form::submit(trans('company.upload_logo'), ['class' => 'btn btn-primary']) }}
-                {{ Form::close() }}
-            </div>
         </div>
     </div>
 </div>

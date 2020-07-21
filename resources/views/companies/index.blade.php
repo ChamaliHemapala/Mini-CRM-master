@@ -29,7 +29,6 @@
                         <th>{{ trans('company.name') }}</th>
                         <th>{{ trans('company.email') }}</th>
                         <th>{{ trans('company.website') }}</th>
-                        <th>{{ trans('company.address') }}</th>
                         <th class="text-center">{{ trans('app.action') }}</th>
                     </tr>
                 </thead>
@@ -40,7 +39,6 @@
                         <td>{{ $company->name }}</td>
                         <td>{{ $company->email }}</td>
                         <td>{{ $company->website }}</td>
-                        <td>{{ $company->address }}</td>
                         <td class="text-center">
                         @can('view', $company)
                             {!! link_to_route(

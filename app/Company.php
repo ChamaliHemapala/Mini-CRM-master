@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Company extends Model
 {
-    protected $fillable = ['name', 'email', 'logo', 'address', 'website', 'creator_id'];
+    protected $fillable = ['name', 'email', 'website', 'creator_id'];
 
     protected $perPage = 10;
 
