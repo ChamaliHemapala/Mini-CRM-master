@@ -27,6 +27,7 @@
 11. Login with :
     - email : `admin@admin.com`
     - password : `password`
+
 **Please note that mini-crm.sql is the database file**
 ## License
 
