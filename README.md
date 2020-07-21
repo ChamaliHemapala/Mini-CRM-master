@@ -1,7 +1,4 @@
 # Mini-CRM
-
-This project built with Laravel 5.5.
-
 ## User Requirements
 
 * [x] Basic Laravel Auth: ability to log in as administrator
